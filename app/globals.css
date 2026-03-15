@@ -10,6 +10,11 @@
 }
 
 
+.before-after-slider img{
+  height: 200px !important;
+  max-height: 200px;
+}
+
 
 @layer base {
   :root {
@@ -77,3 +82,4 @@
     @apply bg-background text-foreground;
   }
 }
+
